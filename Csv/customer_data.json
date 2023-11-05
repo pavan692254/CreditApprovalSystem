@@ -1,0 +1,1334 @@
+[
+ {
+  "customer_id": 153,
+  "first_name": "Altagracia",
+  "last_name": "Aparicio",
+  "age": 62,
+  "phone_number": 9320321242,
+  "monthly_salary": 215000,
+  "approved_limit": 3100000
+ },
+ {
+  "customer_id": 154,
+  "first_name": "Altha",
+  "last_name": "Rivero",
+  "age": 31,
+  "phone_number": 9475534315,
+  "monthly_salary": 52000,
+  "approved_limit": 2700000
+ },
+ {
+  "customer_id": 155,
+  "first_name": "Althea",
+  "last_name": "Estevez",
+  "age": 29,
+  "phone_number": 9179384063,
+  "monthly_salary": 126000,
+  "approved_limit": 1100000
+ },
+ {
+  "customer_id": 156,
+  "first_name": "Alton",
+  "last_name": "Beltran",
+  "age": 41,
+  "phone_number": 9337276177,
+  "monthly_salary": 189000,
+  "approved_limit": 1100000
+ },
+ {
+  "customer_id": 157,
+  "first_name": "Alva",
+  "last_name": "Padilla",
+  "age": 59,
+  "phone_number": 9827444359,
+  "monthly_salary": 235000,
+  "approved_limit": 4000000
+ },
+ {
+  "customer_id": 158,
+  "first_name": "Alvaro",
+  "last_name": "Calderon",
+  "age": 38,
+  "phone_number": 9323617366,
+  "monthly_salary": 197000,
+  "approved_limit": 3400000
+ },
+ {
+  "customer_id": 159,
+  "first_name": "Alvera",
+  "last_name": "Rico",
+  "age": 51,
+  "phone_number": 9704581467,
+  "monthly_salary": 163000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 160,
+  "first_name": "Alverta",
+  "last_name": "Gracia",
+  "age": 31,
+  "phone_number": 9135078377,
+  "monthly_salary": 204000,
+  "approved_limit": 1100000
+ },
+ {
+  "customer_id": 161,
+  "first_name": "Alvin",
+  "last_name": "Galvez",
+  "age": 69,
+  "phone_number": 9363267543,
+  "monthly_salary": 282000,
+  "approved_limit": 2800000
+ },
+ {
+  "customer_id": 162,
+  "first_name": "Alvina",
+  "last_name": "Abad",
+  "age": 38,
+  "phone_number": 9451186595,
+  "monthly_salary": 135000,
+  "approved_limit": 2800000
+ },
+ {
+  "customer_id": 163,
+  "first_name": "Alyce",
+  "last_name": "Conde",
+  "age": 29,
+  "phone_number": 9643464078,
+  "monthly_salary": 286000,
+  "approved_limit": 2900000
+ },
+ {
+  "customer_id": 164,
+  "first_name": "Alycia",
+  "last_name": "Salas",
+  "age": 50,
+  "phone_number": 9316384637,
+  "monthly_salary": 129000,
+  "approved_limit": 1500000
+ },
+ {
+  "customer_id": 165,
+  "first_name": "Alysa",
+  "last_name": "Jurado",
+  "age": 42,
+  "phone_number": 9201326304,
+  "monthly_salary": 58000,
+  "approved_limit": 1800000
+ },
+ {
+  "customer_id": 166,
+  "first_name": "Alyse",
+  "last_name": "Quintana",
+  "age": 41,
+  "phone_number": 9481659601,
+  "monthly_salary": 47000,
+  "approved_limit": 3300000
+ },
+ {
+  "customer_id": 167,
+  "first_name": "Alysha",
+  "last_name": "Plaza",
+  "age": 26,
+  "phone_number": 9641961065,
+  "monthly_salary": 142000,
+  "approved_limit": 2500000
+ },
+ {
+  "customer_id": 168,
+  "first_name": "Alysia",
+  "last_name": "Acosta",
+  "age": 27,
+  "phone_number": 9380264639,
+  "monthly_salary": 194000,
+  "approved_limit": 4800000
+ },
+ {
+  "customer_id": 169,
+  "first_name": "Alyson",
+  "last_name": "Aranda",
+  "age": 45,
+  "phone_number": 9525136195,
+  "monthly_salary": 178000,
+  "approved_limit": 3800000
+ },
+ {
+  "customer_id": 170,
+  "first_name": "Alyssa",
+  "last_name": "Blazquez",
+  "age": 22,
+  "phone_number": 9964508328,
+  "monthly_salary": 111000,
+  "approved_limit": 3000000
+ },
+ {
+  "customer_id": 171,
+  "first_name": "Amada",
+  "last_name": "Bermudez",
+  "age": 63,
+  "phone_number": 9521112531,
+  "monthly_salary": 138000,
+  "approved_limit": 3800000
+ },
+ {
+  "customer_id": 172,
+  "first_name": "Amado",
+  "last_name": "Roca",
+  "age": 35,
+  "phone_number": 9889502231,
+  "monthly_salary": 260000,
+  "approved_limit": 800000
+ },
+ {
+  "customer_id": 173,
+  "first_name": "Amal",
+  "last_name": "Salazar",
+  "age": 44,
+  "phone_number": 9401771136,
+  "monthly_salary": 222000,
+  "approved_limit": 4600000
+ },
+ {
+  "customer_id": 174,
+  "first_name": "Amalia",
+  "last_name": "Costa",
+  "age": 40,
+  "phone_number": 9882495478,
+  "monthly_salary": 183000,
+  "approved_limit": 3900000
+ },
+ {
+  "customer_id": 175,
+  "first_name": "Amanda",
+  "last_name": "Santamaria",
+  "age": 22,
+  "phone_number": 9732443173,
+  "monthly_salary": 207000,
+  "approved_limit": 2300000
+ },
+ {
+  "customer_id": 176,
+  "first_name": "Amber",
+  "last_name": "Miguel",
+  "age": 69,
+  "phone_number": 9910185838,
+  "monthly_salary": 107000,
+  "approved_limit": 2400000
+ },
+ {
+  "customer_id": 177,
+  "first_name": "Amberly",
+  "last_name": "Guzman",
+  "age": 57,
+  "phone_number": 9800339036,
+  "monthly_salary": 137000,
+  "approved_limit": 2800000
+ },
+ {
+  "customer_id": 178,
+  "first_name": "Ambrose",
+  "last_name": "Serra",
+  "age": 23,
+  "phone_number": 9189346724,
+  "monthly_salary": 134000,
+  "approved_limit": 2700000
+ },
+ {
+  "customer_id": 179,
+  "first_name": "Amee",
+  "last_name": "Villanueva",
+  "age": 65,
+  "phone_number": 9434796450,
+  "monthly_salary": 50000,
+  "approved_limit": 1500000
+ },
+ {
+  "customer_id": 180,
+  "first_name": "Amelia",
+  "last_name": "Manzano",
+  "age": 33,
+  "phone_number": 9462575278,
+  "monthly_salary": 189000,
+  "approved_limit": 4100000
+ },
+ {
+  "customer_id": 181,
+  "first_name": "America",
+  "last_name": "Cuesta",
+  "age": 56,
+  "phone_number": 9213807132,
+  "monthly_salary": 288000,
+  "approved_limit": 3900000
+ },
+ {
+  "customer_id": 182,
+  "first_name": "Ami",
+  "last_name": "Tomas",
+  "age": 57,
+  "phone_number": 9942105069,
+  "monthly_salary": 61000,
+  "approved_limit": 2100000
+ },
+ {
+  "customer_id": 183,
+  "first_name": "Amie",
+  "last_name": "Hurtado",
+  "age": 28,
+  "phone_number": 9220299612,
+  "monthly_salary": 294000,
+  "approved_limit": 2100000
+ },
+ {
+  "customer_id": 184,
+  "first_name": "Amiee",
+  "last_name": "Rueda",
+  "age": 43,
+  "phone_number": 9282430141,
+  "monthly_salary": 106000,
+  "approved_limit": 4300000
+ },
+ {
+  "customer_id": 185,
+  "first_name": "Amina",
+  "last_name": "Trujillo",
+  "age": 26,
+  "phone_number": 9117895864,
+  "monthly_salary": 154000,
+  "approved_limit": 4500000
+ },
+ {
+  "customer_id": 186,
+  "first_name": "Amira",
+  "last_name": "Avila",
+  "age": 22,
+  "phone_number": 9766809898,
+  "monthly_salary": 117000,
+  "approved_limit": 4400000
+ },
+ {
+  "customer_id": 187,
+  "first_name": "Ammie",
+  "last_name": "Pacheco",
+  "age": 39,
+  "phone_number": 9285592769,
+  "monthly_salary": 34000,
+  "approved_limit": 4900000
+ },
+ {
+  "customer_id": 188,
+  "first_name": "Amos",
+  "last_name": "Simon",
+  "age": 26,
+  "phone_number": 9229411461,
+  "monthly_salary": 107000,
+  "approved_limit": 3300000
+ },
+ {
+  "customer_id": 189,
+  "first_name": "Amparo",
+  "last_name": "De La Fuente",
+  "age": 36,
+  "phone_number": 9904125266,
+  "monthly_salary": 197000,
+  "approved_limit": 4200000
+ },
+ {
+  "customer_id": 190,
+  "first_name": "Amy",
+  "last_name": "Pons",
+  "age": 21,
+  "phone_number": 9525562036,
+  "monthly_salary": 264000,
+  "approved_limit": 3700000
+ },
+ {
+  "customer_id": 191,
+  "first_name": "An",
+  "last_name": "Lazaro",
+  "age": 39,
+  "phone_number": 9878621805,
+  "monthly_salary": 218000,
+  "approved_limit": 1200000
+ },
+ {
+  "customer_id": 192,
+  "first_name": "Ana",
+  "last_name": "Mesa",
+  "age": 65,
+  "phone_number": 9953004088,
+  "monthly_salary": 231000,
+  "approved_limit": 2600000
+ },
+ {
+  "customer_id": 193,
+  "first_name": "Anabel",
+  "last_name": "Sancho",
+  "age": 49,
+  "phone_number": 9344895758,
+  "monthly_salary": 292000,
+  "approved_limit": 1500000
+ },
+ {
+  "customer_id": 194,
+  "first_name": "Analisa",
+  "last_name": "Del Rio",
+  "age": 55,
+  "phone_number": 9847471634,
+  "monthly_salary": 240000,
+  "approved_limit": 3800000
+ },
+ {
+  "customer_id": 195,
+  "first_name": "Anamaria",
+  "last_name": "Escobar",
+  "age": 65,
+  "phone_number": 9775138358,
+  "monthly_salary": 159000,
+  "approved_limit": 4100000
+ },
+ {
+  "customer_id": 196,
+  "first_name": "Anastacia",
+  "last_name": "Millan",
+  "age": 69,
+  "phone_number": 9151416579,
+  "monthly_salary": 84000,
+  "approved_limit": 4400000
+ },
+ {
+  "customer_id": 197,
+  "first_name": "Anastasia",
+  "last_name": "Blasco",
+  "age": 24,
+  "phone_number": 9700368897,
+  "monthly_salary": 165000,
+  "approved_limit": 4500000
+ },
+ {
+  "customer_id": 198,
+  "first_name": "Andera",
+  "last_name": "Alarcon",
+  "age": 47,
+  "phone_number": 9233639894,
+  "monthly_salary": 35000,
+  "approved_limit": 3300000
+ },
+ {
+  "customer_id": 199,
+  "first_name": "Anderson",
+  "last_name": "Luna",
+  "age": 50,
+  "phone_number": 9831106184,
+  "monthly_salary": 72000,
+  "approved_limit": 4300000
+ },
+ {
+  "customer_id": 200,
+  "first_name": "Andra",
+  "last_name": "Zamora",
+  "age": 67,
+  "phone_number": 9512891717,
+  "monthly_salary": 132000,
+  "approved_limit": 3700000
+ },
+ {
+  "customer_id": 201,
+  "first_name": "Andre",
+  "last_name": "Castaño",
+  "age": 59,
+  "phone_number": 9409193879,
+  "monthly_salary": 257000,
+  "approved_limit": 1400000
+ },
+ {
+  "customer_id": 202,
+  "first_name": "Andrea",
+  "last_name": "Salvador",
+  "age": 66,
+  "phone_number": 9230856699,
+  "monthly_salary": 160000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 203,
+  "first_name": "Andreas",
+  "last_name": "Bermejo",
+  "age": 39,
+  "phone_number": 9404295289,
+  "monthly_salary": 127000,
+  "approved_limit": 1600000
+ },
+ {
+  "customer_id": 204,
+  "first_name": "Andree",
+  "last_name": "Paredes",
+  "age": 64,
+  "phone_number": 9546474790,
+  "monthly_salary": 50000,
+  "approved_limit": 4700000
+ },
+ {
+  "customer_id": 205,
+  "first_name": "Andres",
+  "last_name": "Anton",
+  "age": 46,
+  "phone_number": 9423711581,
+  "monthly_salary": 61000,
+  "approved_limit": 4000000
+ },
+ {
+  "customer_id": 206,
+  "first_name": "Andrew",
+  "last_name": "Ballesteros",
+  "age": 47,
+  "phone_number": 9286300384,
+  "monthly_salary": 101000,
+  "approved_limit": 2100000
+ },
+ {
+  "customer_id": 207,
+  "first_name": "Andria",
+  "last_name": "Valverde",
+  "age": 66,
+  "phone_number": 9578800227,
+  "monthly_salary": 210000,
+  "approved_limit": 4700000
+ },
+ {
+  "customer_id": 208,
+  "first_name": "Andy",
+  "last_name": "Maldonado",
+  "age": 21,
+  "phone_number": 9961709322,
+  "monthly_salary": 37000,
+  "approved_limit": 2200000
+ },
+ {
+  "customer_id": 209,
+  "first_name": "Anette",
+  "last_name": "Bautista",
+  "age": 29,
+  "phone_number": 9792613387,
+  "monthly_salary": 284000,
+  "approved_limit": 4700000
+ },
+ {
+  "customer_id": 210,
+  "first_name": "Angel",
+  "last_name": "Valle",
+  "age": 42,
+  "phone_number": 9975548297,
+  "monthly_salary": 129000,
+  "approved_limit": 3400000
+ },
+ {
+  "customer_id": 211,
+  "first_name": "Angela",
+  "last_name": "Ponce",
+  "age": 54,
+  "phone_number": 9809832965,
+  "monthly_salary": 93000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 212,
+  "first_name": "Angele",
+  "last_name": "Oliva",
+  "age": 22,
+  "phone_number": 9907227554,
+  "monthly_salary": 243000,
+  "approved_limit": 1700000
+ },
+ {
+  "customer_id": 213,
+  "first_name": "Angelena",
+  "last_name": "Rodrigo",
+  "age": 62,
+  "phone_number": 9717190489,
+  "monthly_salary": 240000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 214,
+  "first_name": "Angeles",
+  "last_name": "Lorente",
+  "age": 50,
+  "phone_number": 9545243694,
+  "monthly_salary": 285000,
+  "approved_limit": 4200000
+ },
+ {
+  "customer_id": 215,
+  "first_name": "Angelia",
+  "last_name": "Cordero",
+  "age": 68,
+  "phone_number": 9630396318,
+  "monthly_salary": 38000,
+  "approved_limit": 4700000
+ },
+ {
+  "customer_id": 216,
+  "first_name": "Angelic",
+  "last_name": "Juan",
+  "age": 68,
+  "phone_number": 9761418031,
+  "monthly_salary": 223000,
+  "approved_limit": 2200000
+ },
+ {
+  "customer_id": 217,
+  "first_name": "Angelica",
+  "last_name": "De La Cruz",
+  "age": 24,
+  "phone_number": 9606056493,
+  "monthly_salary": 182000,
+  "approved_limit": 1200000
+ },
+ {
+  "customer_id": 218,
+  "first_name": "Angelika",
+  "last_name": "Mas",
+  "age": 47,
+  "phone_number": 9317388805,
+  "monthly_salary": 34000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 219,
+  "first_name": "Angelina",
+  "last_name": "Collado",
+  "age": 54,
+  "phone_number": 9317060744,
+  "monthly_salary": 161000,
+  "approved_limit": 4900000
+ },
+ {
+  "customer_id": 220,
+  "first_name": "Angeline",
+  "last_name": "Murillo",
+  "age": 27,
+  "phone_number": 9562423937,
+  "monthly_salary": 134000,
+  "approved_limit": 2100000
+ },
+ {
+  "customer_id": 221,
+  "first_name": "Angelique",
+  "last_name": "Pozo",
+  "age": 30,
+  "phone_number": 9593407816,
+  "monthly_salary": 68000,
+  "approved_limit": 1300000
+ },
+ {
+  "customer_id": 222,
+  "first_name": "Angelita",
+  "last_name": "Montoya",
+  "age": 20,
+  "phone_number": 9445413160,
+  "monthly_salary": 147000,
+  "approved_limit": 2600000
+ },
+ {
+  "customer_id": 223,
+  "first_name": "Angella",
+  "last_name": "Cuenca",
+  "age": 36,
+  "phone_number": 9506339628,
+  "monthly_salary": 151000,
+  "approved_limit": 1000000
+ },
+ {
+  "customer_id": 224,
+  "first_name": "Angelo",
+  "last_name": "Cuevas",
+  "age": 45,
+  "phone_number": 9632141575,
+  "monthly_salary": 176000,
+  "approved_limit": 4800000
+ },
+ {
+  "customer_id": 225,
+  "first_name": "Angelyn",
+  "last_name": "Martos",
+  "age": 54,
+  "phone_number": 9363893652,
+  "monthly_salary": 185000,
+  "approved_limit": 800000
+ },
+ {
+  "customer_id": 226,
+  "first_name": "Angie",
+  "last_name": "Marco",
+  "age": 20,
+  "phone_number": 9740153812,
+  "monthly_salary": 102000,
+  "approved_limit": 4600000
+ },
+ {
+  "customer_id": 227,
+  "first_name": "Angila",
+  "last_name": "Barroso",
+  "age": 67,
+  "phone_number": 9348283339,
+  "monthly_salary": 192000,
+  "approved_limit": 4800000
+ },
+ {
+  "customer_id": 228,
+  "first_name": "Angla",
+  "last_name": "Ros",
+  "age": 66,
+  "phone_number": 9525270367,
+  "monthly_salary": 120000,
+  "approved_limit": 1200000
+ },
+ {
+  "customer_id": 229,
+  "first_name": "Angle",
+  "last_name": "Quesada",
+  "age": 32,
+  "phone_number": 9320289803,
+  "monthly_salary": 117000,
+  "approved_limit": 2800000
+ },
+ {
+  "customer_id": 230,
+  "first_name": "Anglea",
+  "last_name": "De La Torre",
+  "age": 32,
+  "phone_number": 9209824831,
+  "monthly_salary": 172000,
+  "approved_limit": 1400000
+ },
+ {
+  "customer_id": 231,
+  "first_name": "Anh",
+  "last_name": "Barrera",
+  "age": 69,
+  "phone_number": 9438790371,
+  "monthly_salary": 109000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 232,
+  "first_name": "Anibal",
+  "last_name": "Ordoñez",
+  "age": 42,
+  "phone_number": 9914415599,
+  "monthly_salary": 187000,
+  "approved_limit": 4700000
+ },
+ {
+  "customer_id": 233,
+  "first_name": "Anika",
+  "last_name": "Gimeno",
+  "age": 31,
+  "phone_number": 9906529352,
+  "monthly_salary": 262000,
+  "approved_limit": 4300000
+ },
+ {
+  "customer_id": 234,
+  "first_name": "Anisa",
+  "last_name": "Alba",
+  "age": 32,
+  "phone_number": 9992247608,
+  "monthly_salary": 138000,
+  "approved_limit": 2300000
+ },
+ {
+  "customer_id": 235,
+  "first_name": "Anisha",
+  "last_name": "Corral",
+  "age": 51,
+  "phone_number": 9308349212,
+  "monthly_salary": 141000,
+  "approved_limit": 2000000
+ },
+ {
+  "customer_id": 236,
+  "first_name": "Anissa",
+  "last_name": "Puig",
+  "age": 50,
+  "phone_number": 9651785037,
+  "monthly_salary": 240000,
+  "approved_limit": 4800000
+ },
+ {
+  "customer_id": 237,
+  "first_name": "Anita",
+  "last_name": "Cabello",
+  "age": 64,
+  "phone_number": 9505917637,
+  "monthly_salary": 264000,
+  "approved_limit": 4300000
+ },
+ {
+  "customer_id": 238,
+  "first_name": "Anitra",
+  "last_name": "Pulido",
+  "age": 54,
+  "phone_number": 9437880477,
+  "monthly_salary": 85000,
+  "approved_limit": 3300000
+ },
+ {
+  "customer_id": 239,
+  "first_name": "Anja",
+  "last_name": "Rojo",
+  "age": 38,
+  "phone_number": 9831684307,
+  "monthly_salary": 231000,
+  "approved_limit": 1300000
+ },
+ {
+  "customer_id": 240,
+  "first_name": "Anjanette",
+  "last_name": "Navas",
+  "age": 39,
+  "phone_number": 9881414926,
+  "monthly_salary": 126000,
+  "approved_limit": 1100000
+ },
+ {
+  "customer_id": 241,
+  "first_name": "Anjelica",
+  "last_name": "Saiz",
+  "age": 29,
+  "phone_number": 9993219098,
+  "monthly_salary": 72000,
+  "approved_limit": 3200000
+ },
+ {
+  "customer_id": 242,
+  "first_name": "Ann",
+  "last_name": "Arenas",
+  "age": 21,
+  "phone_number": 9114155672,
+  "monthly_salary": 81000,
+  "approved_limit": 4400000
+ },
+ {
+  "customer_id": 243,
+  "first_name": "Anna",
+  "last_name": "Aguado",
+  "age": 49,
+  "phone_number": 9999757819,
+  "monthly_salary": 111000,
+  "approved_limit": 2500000
+ },
+ {
+  "customer_id": 244,
+  "first_name": "Annabel",
+  "last_name": "Soria",
+  "age": 48,
+  "phone_number": 9490132408,
+  "monthly_salary": 250000,
+  "approved_limit": 2900000
+ },
+ {
+  "customer_id": 245,
+  "first_name": "Annabell",
+  "last_name": "Domingo",
+  "age": 53,
+  "phone_number": 9744129141,
+  "monthly_salary": 170000,
+  "approved_limit": 3400000
+ },
+ {
+  "customer_id": 246,
+  "first_name": "Annabelle",
+  "last_name": "Galindo",
+  "age": 36,
+  "phone_number": 9527557533,
+  "monthly_salary": 175000,
+  "approved_limit": 2500000
+ },
+ {
+  "customer_id": 247,
+  "first_name": "Annalee",
+  "last_name": "Mena",
+  "age": 64,
+  "phone_number": 9507039105,
+  "monthly_salary": 189000,
+  "approved_limit": 2500000
+ },
+ {
+  "customer_id": 248,
+  "first_name": "Annalisa",
+  "last_name": "Escribano",
+  "age": 35,
+  "phone_number": 9235465741,
+  "monthly_salary": 54000,
+  "approved_limit": 1300000
+ },
+ {
+  "customer_id": 249,
+  "first_name": "Annamae",
+  "last_name": "Vallejo",
+  "age": 20,
+  "phone_number": 9520954671,
+  "monthly_salary": 143000,
+  "approved_limit": 1700000
+ },
+ {
+  "customer_id": 250,
+  "first_name": "Annamaria",
+  "last_name": "Valencia",
+  "age": 68,
+  "phone_number": 9120189951,
+  "monthly_salary": 165000,
+  "approved_limit": 2600000
+ },
+ {
+  "customer_id": 251,
+  "first_name": "Annamarie",
+  "last_name": "Asensio",
+  "age": 43,
+  "phone_number": 9772698915,
+  "monthly_salary": 65000,
+  "approved_limit": 4700000
+ },
+ {
+  "customer_id": 252,
+  "first_name": "Anne",
+  "last_name": "Ramon",
+  "age": 67,
+  "phone_number": 9486625000,
+  "monthly_salary": 45000,
+  "approved_limit": 2400000
+ },
+ {
+  "customer_id": 253,
+  "first_name": "Anneliese",
+  "last_name": "Lucas",
+  "age": 23,
+  "phone_number": 9723576704,
+  "monthly_salary": 204000,
+  "approved_limit": 3800000
+ },
+ {
+  "customer_id": 254,
+  "first_name": "Annelle",
+  "last_name": "Caro",
+  "age": 21,
+  "phone_number": 9828481296,
+  "monthly_salary": 266000,
+  "approved_limit": 4400000
+ },
+ {
+  "customer_id": 255,
+  "first_name": "Annemarie",
+  "last_name": "Polo",
+  "age": 27,
+  "phone_number": 9166250716,
+  "monthly_salary": 250000,
+  "approved_limit": 1500000
+ },
+ {
+  "customer_id": 256,
+  "first_name": "Annett",
+  "last_name": "Chen",
+  "age": 53,
+  "phone_number": 9167784356,
+  "monthly_salary": 221000,
+  "approved_limit": 2800000
+ },
+ {
+  "customer_id": 257,
+  "first_name": "Annetta",
+  "last_name": "Aguirre",
+  "age": 35,
+  "phone_number": 9247752157,
+  "monthly_salary": 109000,
+  "approved_limit": 3600000
+ },
+ {
+  "customer_id": 258,
+  "first_name": "Annette",
+  "last_name": "Naranjo",
+  "age": 60,
+  "phone_number": 9757972808,
+  "monthly_salary": 48000,
+  "approved_limit": 4500000
+ },
+ {
+  "customer_id": 259,
+  "first_name": "Annice",
+  "last_name": "Amador",
+  "age": 49,
+  "phone_number": 9116409106,
+  "monthly_salary": 236000,
+  "approved_limit": 1200000
+ },
+ {
+  "customer_id": 260,
+  "first_name": "Annie",
+  "last_name": "Villalba",
+  "age": 28,
+  "phone_number": 9836257121,
+  "monthly_salary": 82000,
+  "approved_limit": 1700000
+ },
+ {
+  "customer_id": 261,
+  "first_name": "Annika",
+  "last_name": "Mata",
+  "age": 24,
+  "phone_number": 9691216518,
+  "monthly_salary": 209000,
+  "approved_limit": 3200000
+ },
+ {
+  "customer_id": 262,
+  "first_name": "Annis",
+  "last_name": "Reina",
+  "age": 27,
+  "phone_number": 9298388045,
+  "monthly_salary": 112000,
+  "approved_limit": 1700000
+ },
+ {
+  "customer_id": 263,
+  "first_name": "Annita",
+  "last_name": "Paz",
+  "age": 26,
+  "phone_number": 9102190008,
+  "monthly_salary": 57000,
+  "approved_limit": 1000000
+ },
+ {
+  "customer_id": 264,
+  "first_name": "Annmarie",
+  "last_name": "Moran",
+  "age": 60,
+  "phone_number": 9480022732,
+  "monthly_salary": 98000,
+  "approved_limit": 3900000
+ },
+ {
+  "customer_id": 265,
+  "first_name": "Anthony",
+  "last_name": "Linares",
+  "age": 30,
+  "phone_number": 9405972517,
+  "monthly_salary": 123000,
+  "approved_limit": 1100000
+ },
+ {
+  "customer_id": 266,
+  "first_name": "Antione",
+  "last_name": "Ojeda",
+  "age": 56,
+  "phone_number": 9541658903,
+  "monthly_salary": 108000,
+  "approved_limit": 1700000
+ },
+ {
+  "customer_id": 267,
+  "first_name": "Antionette",
+  "last_name": "Leal",
+  "age": 20,
+  "phone_number": 9228631557,
+  "monthly_salary": 212000,
+  "approved_limit": 4300000
+ },
+ {
+  "customer_id": 268,
+  "first_name": "Antoine",
+  "last_name": "Burgos",
+  "age": 32,
+  "phone_number": 9213995694,
+  "monthly_salary": 58000,
+  "approved_limit": 1900000
+ },
+ {
+  "customer_id": 269,
+  "first_name": "Antoinette",
+  "last_name": "Carretero",
+  "age": 62,
+  "phone_number": 9178620988,
+  "monthly_salary": 285000,
+  "approved_limit": 4200000
+ },
+ {
+  "customer_id": 270,
+  "first_name": "Anton",
+  "last_name": "Oliver",
+  "age": 26,
+  "phone_number": 9956598054,
+  "monthly_salary": 227000,
+  "approved_limit": 3200000
+ },
+ {
+  "customer_id": 271,
+  "first_name": "Antone",
+  "last_name": "Bonilla",
+  "age": 47,
+  "phone_number": 9345234695,
+  "monthly_salary": 260000,
+  "approved_limit": 1800000
+ },
+ {
+  "customer_id": 272,
+  "first_name": "Antonetta",
+  "last_name": "Sosa",
+  "age": 40,
+  "phone_number": 9405872422,
+  "monthly_salary": 214000,
+  "approved_limit": 4200000
+ },
+ {
+  "customer_id": 273,
+  "first_name": "Antonette",
+  "last_name": "Roig",
+  "age": 57,
+  "phone_number": 9518976383,
+  "monthly_salary": 115000,
+  "approved_limit": 2700000
+ },
+ {
+  "customer_id": 274,
+  "first_name": "Antonia",
+  "last_name": "Aragon",
+  "age": 62,
+  "phone_number": 9547709205,
+  "monthly_salary": 215000,
+  "approved_limit": 1200000
+ },
+ {
+  "customer_id": 275,
+  "first_name": "Antonietta",
+  "last_name": "Carrion",
+  "age": 44,
+  "phone_number": 9899647979,
+  "monthly_salary": 81000,
+  "approved_limit": 5000000
+ },
+ {
+  "customer_id": 276,
+  "first_name": "Antonina",
+  "last_name": "Clemente",
+  "age": 28,
+  "phone_number": 9666830297,
+  "monthly_salary": 46000,
+  "approved_limit": 1400000
+ },
+ {
+  "customer_id": 277,
+  "first_name": "Antonio",
+  "last_name": "Villa",
+  "age": 29,
+  "phone_number": 9984306813,
+  "monthly_salary": 214000,
+  "approved_limit": 2900000
+ },
+ {
+  "customer_id": 278,
+  "first_name": "Antony",
+  "last_name": "Castellano",
+  "age": 40,
+  "phone_number": 9819261784,
+  "monthly_salary": 75000,
+  "approved_limit": 3100000
+ },
+ {
+  "customer_id": 279,
+  "first_name": "Antwan",
+  "last_name": "Cordoba",
+  "age": 59,
+  "phone_number": 9443939782,
+  "monthly_salary": 116000,
+  "approved_limit": 3500000
+ },
+ {
+  "customer_id": 280,
+  "first_name": "Anya",
+  "last_name": "Carrera",
+  "age": 50,
+  "phone_number": 9874876902,
+  "monthly_salary": 185000,
+  "approved_limit": 1700000
+ },
+ {
+  "customer_id": 281,
+  "first_name": "Apolonia",
+  "last_name": "Hernando",
+  "age": 24,
+  "phone_number": 9887567962,
+  "monthly_salary": 217000,
+  "approved_limit": 4100000
+ },
+ {
+  "customer_id": 282,
+  "first_name": "April",
+  "last_name": "Rosa",
+  "age": 56,
+  "phone_number": 9420633068,
+  "monthly_salary": 38000,
+  "approved_limit": 1100000
+ },
+ {
+  "customer_id": 283,
+  "first_name": "Apryl",
+  "last_name": "Andreu",
+  "age": 56,
+  "phone_number": 9938512409,
+  "monthly_salary": 228000,
+  "approved_limit": 2500000
+ },
+ {
+  "customer_id": 284,
+  "first_name": "Ara",
+  "last_name": "Caceres",
+  "age": 29,
+  "phone_number": 9697148952,
+  "monthly_salary": 135000,
+  "approved_limit": 3600000
+ },
+ {
+  "customer_id": 285,
+  "first_name": "Araceli",
+  "last_name": "Mohamed",
+  "age": 30,
+  "phone_number": 9651985884,
+  "monthly_salary": 249000,
+  "approved_limit": 2000000
+ },
+ {
+  "customer_id": 286,
+  "first_name": "Aracelis",
+  "last_name": "Calero",
+  "age": 33,
+  "phone_number": 9798534191,
+  "monthly_salary": 111000,
+  "approved_limit": 3400000
+ },
+ {
+  "customer_id": 287,
+  "first_name": "Aracely",
+  "last_name": "Cardenas",
+  "age": 34,
+  "phone_number": 9492301818,
+  "monthly_salary": 250000,
+  "approved_limit": 4500000
+ },
+ {
+  "customer_id": 288,
+  "first_name": "Arcelia",
+  "last_name": "Cobo",
+  "age": 53,
+  "phone_number": 9860490835,
+  "monthly_salary": 145000,
+  "approved_limit": 2200000
+ },
+ {
+  "customer_id": 289,
+  "first_name": "Archie",
+  "last_name": "Correa",
+  "age": 21,
+  "phone_number": 9191616203,
+  "monthly_salary": 287000,
+  "approved_limit": 3800000
+ },
+ {
+  "customer_id": 290,
+  "first_name": "Ardath",
+  "last_name": "Juarez",
+  "age": 25,
+  "phone_number": 9170005981,
+  "monthly_salary": 32000,
+  "approved_limit": 2300000
+ },
+ {
+  "customer_id": 291,
+  "first_name": "Ardelia",
+  "last_name": "Velazquez",
+  "age": 30,
+  "phone_number": 9100608966,
+  "monthly_salary": 136000,
+  "approved_limit": 2600000
+ },
+ {
+  "customer_id": 292,
+  "first_name": "Ardell",
+  "last_name": "Alcaraz",
+  "age": 21,
+  "phone_number": 9212845059,
+  "monthly_salary": 160000,
+  "approved_limit": 3600000
+ },
+ {
+  "customer_id": 293,
+  "first_name": "Ardella",
+  "last_name": "Chacon",
+  "age": 51,
+  "phone_number": 9296412860,
+  "monthly_salary": 274000,
+  "approved_limit": 2900000
+ },
+ {
+  "customer_id": 294,
+  "first_name": "Ardelle",
+  "last_name": "Ferreira",
+  "age": 25,
+  "phone_number": 9169200783,
+  "monthly_salary": 177000,
+  "approved_limit": 3900000
+ },
+ {
+  "customer_id": 295,
+  "first_name": "Arden",
+  "last_name": "Sola",
+  "age": 69,
+  "phone_number": 9647665813,
+  "monthly_salary": 148000,
+  "approved_limit": 4200000
+ },
+ {
+  "customer_id": 296,
+  "first_name": "Ardis",
+  "last_name": "Domenech",
+  "age": 56,
+  "phone_number": 9757942407,
+  "monthly_salary": 35000,
+  "approved_limit": 1000000
+ },
+ {
+  "customer_id": 297,
+  "first_name": "Ardith",
+  "last_name": "Zapata",
+  "age": 40,
+  "phone_number": 9249491764,
+  "monthly_salary": 94000,
+  "approved_limit": 2400000
+ },
+ {
+  "customer_id": 298,
+  "first_name": "Aretha",
+  "last_name": "Riera",
+  "age": 61,
+  "phone_number": 9124680892,
+  "monthly_salary": 188000,
+  "approved_limit": 2900000
+ },
+ {
+  "customer_id": 299,
+  "first_name": "Argelia",
+  "last_name": "Saavedra",
+  "age": 30,
+  "phone_number": 9614182220,
+  "monthly_salary": 85000,
+  "approved_limit": 4100000
+ },
+ {
+  "customer_id": 300,
+  "first_name": "Argentina",
+  "last_name": "Toledo",
+  "age": 46,
+  "phone_number": 9506356490,
+  "monthly_salary": 112000,
+  "approved_limit": 5000000
+ }
+]
