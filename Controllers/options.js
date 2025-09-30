@@ -1,12 +1,36 @@
-const axios = require('axios');
 const MySql = require('../Config/sql2')
 const customerData = require('../Csv/customer_data.json');
 const loanData = require('../Csv/loan_data.json');
 
-const loadInitialData = async () => {
-    for (const data of loanData) {
+// Helper to calculate EMI
+const calculateEMI = (principal, annualRate, tenureMonths) => {
+    const r = annualRate / 12 / 100;
+    return principal * r * Math.pow(1+r, tenureMonths) / (Math.pow(1+r, tenureMonths)-1);
+};
 
-        const sql = 'INSERT INTO loan_data (customer_id, loan_id, loan_amount, tenure, interest_rate, monthly_payment, emis_paid_on_time, start_date, end_date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)';
+// Load initial loan & customer data
+const loadInitialData = async () => {
+    for (const data of customerData) {
+        const sql = `INSERT INTO customer_data 
+            (customer_id, first_name, last_name, age, phone_number, monthly_salary, approved_limit, credit_score) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
+        const params = [
+            data.customer_id,
+            data.first_name,
+            data.last_name,
+            data.age,
+            data.phone_number,
+            data.monthly_salary,
+            data.approved_limit || 0,
+            data.credit_score || 50
+        ];
+        await MySql.handleDb(sql, params);
+    }
+
+    for (const data of loanData) {
+        const sql = `INSERT INTO loan_data 
+            (customer_id, loan_id, loan_amount, tenure, interest_rate, monthly_payment, emis_paid_on_time, start_date, end_date) 
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`;
         const params = [
             data.customer_id,
             data.loan_id,
@@ -18,13 +42,16 @@ const loadInitialData = async () => {
             new Date(data.start_date),
             new Date(data.end_date)
         ];
-        await MySql.handleDb(sql, params)
+        await MySql.handleDb(sql, params);
     }
-    return `loanData',${loanData.length},'customerData',${customerData.length}`
+    return `Loaded ${loanData.length} loans, ${customerData.length} customers`;
 };
 
+// Add new customer
 const addCustomer = async (query) => {
-    const sql = 'INSERT INTO customer_data (customer_id, first_name, last_name, age, phone_number, monthly_salary, approved_limit) VALUES (?, ?, ?, ?, ?, ?, ?)';
+    const sql = `INSERT INTO customer_data 
+        (customer_id, first_name, last_name, age, phone_number, monthly_salary, approved_limit, credit_score) 
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
     const params = [
         query.customer_id,
         query.first_name,
@@ -32,76 +59,100 @@ const addCustomer = async (query) => {
         query.age,
         query.phone_number,
         query.monthly_salary,
-        query.approved_limit,
+        query.approved_limit || 0,
+        query.credit_score || 50
     ];
-    const res = await MySql.handleDb(sql, params)
-    return res;
-}
+    return await MySql.handleDb(sql, params);
+};
 
+// Check loan eligibility
 const checkEligibility = async (query) => {
-    const { customer_id, loan_amount, interest_rate, tenure } = query;
-    const sql = `SELECT * FROM customer_data WHERE customer_id=${customer_id}`;
-    const res = await MySql.handleDb(sql);
-    const result = [];
-    for (const data of res) {
-        let temp = {};
-        temp.customer_id = data.customer_id;
-        temp.interest_rate = interest_rate;
-        temp.tenure = tenure;
-        temp.monthly_payment = loan_amount/12;
-        if (data.credit_score > 50) {
-            temp.approval = true;
-            temp.corrected_interest_rate = 0;
-        } else if (data.credit_score > 30  & data.credit_score <= 50) {
-            temp.approval = true;
-            temp.corrected_interest_rate = 12;
-        }else if (data.credit_score >= 10  & data.credit_score <= 30) {
-            temp.approval = true;
-            temp.corrected_interest_rate = 16;
-        }else {
-            temp.approval = false;
-        }
-        result.push(temp);
+    const { customer_id, loan_amount, tenure } = query;
+    const sql = 'SELECT * FROM customer_data WHERE customer_id = ?';
+    const res = await MySql.handleDb(sql, [customer_id]);
+
+    if (!res.length) return { error: "Customer not found" };
+
+    const customer = res[0];
+    const result = { customer_id: customer.customer_id };
+
+    // Age & income rules
+    if (customer.age < 21 || customer.age > 60) {
+        result.approval = false;
+        result.reason = "Age not eligible";
+        return result;
     }
+
+    if (customer.monthly_salary < 15000) {
+        result.approval = false;
+        result.reason = "Income too low";
+        return result;
+    }
+
+    // Credit score-based interest
+    let baseRate;
+    if (customer.credit_score >= 750) baseRate = 8;
+    else if (customer.credit_score >= 650) baseRate = 10;
+    else if (customer.credit_score >= 550) baseRate = 12;
+    else {
+        result.approval = false;
+        result.reason = "Low credit score";
+        return result;
+    }
+
+    const emi = calculateEMI(loan_amount, baseRate, tenure);
+    result.approval = true;
+    result.interest_rate = baseRate;
+    result.monthly_payment = Math.round(emi);
     return result;
 };
 
-const createLoan = async(query) => {
-    const { customer_id, loan_amount, interest_rate, tenure} = query;
-    const loan_id = Math.floor(1000 + Math.random() * 9000);
-    const sql = `select credit_score from customer_data where customer_id = ${customer_id}`;
-    const res = await MySql.handleDb(sql);
-    const { credit_score } = res[0];
-    const userData = {};
-    if(credit_score >= 10) {
-        userData.loan_id = loan_id;
-        userData.customer_id = customer_id;
-        userData.loan_approved = "Approved";
-        userData.message = "Your loan has been approved";
-        monthly_installment = loan_amount/12;
-    } else{ 
-        userData.loan_id = loan_id;
-        userData.customer_id = customer_id;
-        userData.loan_approved = "Disapproved";
-        userData.message = "Your loan has been Disapproved";
-        monthly_installment = 0;
-    }
-    return userData;
-}
+// Create loan
+const createLoan = async (query) => {
+    const eligibility = await checkEligibility(query);
 
-const getLoanDetails = async(query) => {
-    const { loan_id } = query;
-    const sql = `select * from loan_data where loan_id = ${loan_id}`;
-    const res = await MySql.handleDb(sql);
-    const { customer_id } = res[0];
-    const cSql = `select * from customer_data where customer_id = ${customer_id}`;
-    const customerData = await MySql.handleDb(sql);
-    const data = {
-        loan: res[0],
-        customer: customerData[0],
+    if (!eligibility.approval) {
+        return { ...eligibility, loan_id: Math.floor(1000 + Math.random() * 9000) };
+    }
+
+    const loan_id = Math.floor(1000 + Math.random() * 9000);
+    const sql = `INSERT INTO loan_data 
+        (customer_id, loan_id, loan_amount, tenure, interest_rate, monthly_payment, start_date, end_date)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
+
+    const start_date = new Date();
+    const end_date = new Date();
+    end_date.setMonth(end_date.getMonth() + query.tenure);
+
+    await MySql.handleDb(sql, [
+        query.customer_id,
+        loan_id,
+        query.loan_amount,
+        query.tenure,
+        eligibility.interest_rate,
+        eligibility.monthly_payment,
+        start_date,
+        end_date
+    ]);
+
+    return {
+        loan_id,
+        loan_approved: "Approved",
+        message: "Your loan has been approved",
+        ...eligibility
     };
-    return data;
-}
+};
+
+// Get loan & customer details
+const getLoanDetails = async (query) => {
+    const sql = 'SELECT * FROM loan_data WHERE loan_id = ?';
+    const loans = await MySql.handleDb(sql, [query.loan_id]);
+    if (!loans.length) return { error: "Loan not found" };
+
+    const loan = loans[0];
+    const customers = await MySql.handleDb('SELECT * FROM customer_data WHERE customer_id = ?', [loan.customer_id]);
+    return { loan, customer: customers[0] };
+};
 
 module.exports = {
     loadInitialData,
@@ -109,4 +160,4 @@ module.exports = {
     checkEligibility,
     createLoan,
     getLoanDetails
-}
+};
